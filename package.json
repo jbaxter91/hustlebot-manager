@@ -1,0 +1,27 @@
+{
+  "name": "hustlebot-manager",
+  "version": "1.0.0",
+  "description": "Node program that will attempt to track if the hustle castle bot is currently running, if it is not it will change the config file and start the matching nox shortcut, then start the hustle castle bot.  The goal is to have the bot run 24/7 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaxter91/hustlebot-manager.git"
+  },
+  "keywords": [
+    "Hustle",
+    "Castle"
+  ],
+  "author": "John Baxter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbaxter91/hustlebot-manager/issues"
+  },
+  "homepage": "https://github.com/jbaxter91/hustlebot-manager#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "process-list": "^2.0.0"
+  }
+}
