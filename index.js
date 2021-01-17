@@ -7,3 +7,11 @@ const { snapshot } = require("process-list");
 // console.log(cp);
 
 
+snapshot('pid', 'name').then(tasks => {
+    console.log(tasks);
+    const result = tasks.filter(word => word.name == 'Nox.exe')
+    console.log(result.length > 0 ? result : 'nothing found!');
+    result.forEach(element => {
+        //process.kill(element.pid);
+    });
+})

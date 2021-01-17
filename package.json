@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/jbaxter91/hustlebot-manager#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "inquirer": "^7.3.3",
     "process-list": "^2.0.0"
   }

@@ -19,7 +19,7 @@ function KillNox()
         const result = tasks.filter(word => word.name == 'Nox.exe')
         console.log(result.length > 0 ? result : 'nothing found!');
         result.forEach(element => {
-            process.kill(element.pid);
+            //process.kill(element.pid);
         });
     })
 }

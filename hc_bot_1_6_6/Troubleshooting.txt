@@ -1,0 +1,73 @@
+The followings are the solutions for common problems. Before checking these, please make sure that you followed the instructions on http://hustlecastlebot.com website. If your problem is still not solved, please contact me via bothustlecastle@gmail.com or fb.me/hustlecastlebot
+
+/////////////////////////////////////////////////////////////////////////////
+Symptom:
+Screen:[Unknown] or no clicks
+
+Check:
+Is Windows display scale set to 100%?
+Solution:
+Go to the Windows Start Menu
+Choose Settings
+Select System
+Select Display
+Look for Scale and layout and set to 100%
+Restart the emulator
+
+Check:
+Is Nox window as original size?
+Solution:
+Go to Nox System Settings window, Performance Settings tab
+Click Restore Window Size
+
+Check:
+Is the game in English and is HD setting OFF?
+Solution:
+Go to game settings
+Set game language to English
+Turn OFF HD setting
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+Symptom:
+Missing battles in tournament stages
+
+Solution:
+Decrease max_screen_sleep_time in config.txt
+Close other unnecessary programs
+Increase the priority of HustleCastleBOT.exe process in Task Manager
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+Symptom:
+Starting with Mode:[Idle]
+
+Check:
+Is your config.txt file in the correct format?
+Solution:
+Check your config.txt file for any mistakes.
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+Symptom:
+Unexpected behaviours (i.e. false clicks, screen recognition)
+
+Check:
+Is max_screen_sleep_time set to optimum value?
+Solution:
+Increase or decrease max_screen_sleep_time in config.txt 
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+Symptom:
+Invalid or Expired License
+
+Check:
+Is PC clock set to automatic?
+Solution: Set PC clock to automatic
+
+Check:
+Is this the same PC which was used at the first time?
+Solution:
+A new email address can be used in the new PC
+/////////////////////////////////////////////////////////////////////////////

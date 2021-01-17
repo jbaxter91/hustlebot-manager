@@ -1,0 +1,127 @@
+﻿• 1.6.6 - 18.12.2020
+	○ Added configuration: invasions_hero_relic, gem_bay_hero_relic, pvp_hero_relic, portal_hero_relic, island_hero_relic
+	○ Removed configuration: hero_relic
+	○ Minor Fixes
+
+• 1.6.5 - 05.12.2020
+	○ Added configuration: auto_start, force_max_level, invasions_low_health_battle, pvp_low_health_battle, portal_low_health_battle, island_low_health_battle, gem_bay_collect_reward, tournament_collect_reward
+	○ Removed configuration: low_health_battle
+	○ Fixed Invasion mode squad screen recognition problem after game update
+	○ Fixed PvP mode squad screen recognition problem in some cases
+
+• 1.6.4 - 10.11.2020
+	○ Island Event mode is adapted to the new event
+	○ Fixed wait screen in Gem Bay mode
+	○ Fixed already under attack in PvP mode
+
+• 1.6.3 - 24.10.2020
+	○ Fixed Owner Online behaviour in PvP mode
+	○ Added subscription info at start (thanks to Thomas)
+	○ Added email notification for Suspicious Magical Activity (thanks to Thomas)
+	○ Minor Fixes
+
+• 1.6.2 - 14.10.2020
+	○ Fixed issues with Magnifying Glass reward
+	○ Minor Fixes
+
+• 1.6.1 - 13.10.2020
+	○ Fixed issues with Hammer reward
+	○ Minor Fixes
+
+• 1.6.0 - 05.10.2020
+	○ PvP mode available
+	○ Added configuration: repeat_pvp, pvp_max_squad_power_scale, change_opponent, reattack_defeated, pvp_min_gold, pvp_min_mana, pvp_min_wood, pvp_min_iron, pvp_min_mithril
+	○ Fixed repeating and finishing issues of GemBay
+
+• 1.5.6 - 18.09.2020
+	○ Fixed issues with Card rewards
+
+• 1.5.5 - 17.09.2020
+	○ Island Event mode is adapted to the new event
+	○ Fixed Gem Bay adding reserve for squad with less than 12 dwellers
+	○ Perfomance improvements
+	○ Minor Fixes
+
+• 1.5.4 - 07.09.2020
+	○ New tournament strategy (thanks to Joshua (strategy no=13))
+	○ Changes in licensing mechanism to avoid false invalid or expired results
+	○ Added emulator window size checking
+	○ Added map sliding if related locations are not visible
+	○ Minor Fixes
+
+• 1.5.3 - 25.07.2020
+	○ Fixed Tournament claim reward issues
+	○ Fixed Portal Level 80 issues
+	○ Fixed Gem Bay repeating issues
+
+• 1.5.2 - 23.07.2020
+	○ Added configuration: previous_squad (thanks to Ronni)
+	○ Fixed sticking on Vulnerable screen
+	○ Minor fixes
+
+• 1.5.1 - 19.07.2020
+	○ Fixed issues with Hammer reward
+	○ Portal mode is adapted to the game update
+	○ Seven new tournament strategy (thanks to Spiros (strategy no=6 and strategy no=7), Michel (strategy no=8), Alexander (strategy no=9 and strategy no=10)), Thomas (strategy no=11), Talha (strategy no=12)
+	○ Added configuration: hero_relic (thanks to Darrick)
+	○ Minor fixes
+
+• 1.5.0 - 05.07.2020
+	○ Gem Bay is available
+	○ Added configuration: gem_bay, gem_bay_use_food
+	○ Minor fixes
+
+• 1.4.1 - 26.05.2020
+	○ Fixed sticking on Castle Attacked screen
+
+• 1.4.0 - 25.05.2020
+	○ Island Event is available
+	○ Added passing the conversation screens
+	○ Added configuration: island_event, island_diamond_reset
+	○ Minor fixes
+
+• 1.3.3 - 23.05.2020
+	○ Added an alarm sound for Suspicious Magical Activity screen (thanks to Perry) (Beta-not tested, PC sound must be ON) 
+	○ Two new tournament strategy (thanks to Perry (strategy no=4) and Harun (strategy no=5))
+	○ Minor fixes
+
+• 1.3.2 - 19.05.2020
+	○ Tournament and Invasions mode are adapted to the game update
+
+• 1.3.1 - 15.05.2020
+	○ Fixed Portal issues
+
+• 1.3.0 - 14.05.2020
+	○ Portal mode is available (Beta)
+	○ Added auto detection of the emulator, supported emulators are Nox and MEmu
+	○ Removed configuration: emulator
+	○ Added configuration: use_ticket_first (thanks to Luis), repeat_portal, max_portal_level
+	○ Minor fixes especially of new Arena mechanism
+
+• 1.2.1 - 09.05.2020
+	○ Added MEmu support
+	○ Added configuration: emulator, emulator_in_background
+	○ Minor fixes
+
+• 1.2.0 - 07.05.2020
+	○ Bot can work when Nox is in background (not minimized)
+	○ New super fast Arena mechanism
+	○ Perfomance improvements
+	○ Bot restarts Invasions if they did not appear at the start
+	○ Bot can start Hustle Castle from Nox Home Screen
+	○ Bot stops if the squad is incomplete
+	○ Minor fixes
+
+• 1.1.1 - 26.04.2020
+	○ Minor fixes
+
+• 1.1.0 - 26.04.2020
+	○ Invasions mode is available (Beta)
+	○ Perfomance improvements
+	○ Minor fixes
+
+• 1.0.2 - 19.04.2020
+	○ Minor fixes
+
+• 1.0.1 - 12.04.2020
+	○ Initial release

@@ -1,0 +1,4 @@
+email = 
+key =
+
+//leave the key empty and only enter your mail for the first run. BOT will send a license key to your mail.
