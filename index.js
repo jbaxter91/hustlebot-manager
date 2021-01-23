@@ -1,4 +1,5 @@
-const { snapshot } = require("process-list");
+import snapshot from "process-list";
+import IsBotRunning from './utils/processHandler.js';
  
 
 // var cp = require("child_process");
@@ -6,12 +7,13 @@ const { snapshot } = require("process-list");
 // //process.exit(0); // exit this nodejs process
 // console.log(cp);
 
+console.log(IsBotRunning);
 
-snapshot('pid', 'name').then(tasks => {
-    console.log(tasks);
-    const result = tasks.filter(word => word.name == 'Nox.exe')
-    console.log(result.length > 0 ? result : 'nothing found!');
-    result.forEach(element => {
-        //process.kill(element.pid);
-    });
-})
+// snapshot('pid', 'name').then(tasks => {
+//     console.log(tasks);
+//     const result = tasks.filter(word => word.name == 'Nox.exe')
+//     console.log(result.length > 0 ? result : 'nothing found!');
+//     result.forEach(element => {
+//         //process.kill(element.pid);
+//     });
+// })

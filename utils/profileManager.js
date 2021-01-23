@@ -1,5 +1,7 @@
 //Responsible for generating a new hustle castle bot config file
 //edit the config files, and update them.  All with inquirer
+const Inquirer = require('inquirer');
+const fs = require('fs');
 
 let BOT_SETTINGS = {
   alarm_suspicious_activity: 1,
@@ -8,17 +10,14 @@ let BOT_SETTINGS = {
   other_device_sleep_time: 120,
   auto_start: 1,
 };
-
 let GENERAL = {
   low_health_sleep_time: 30,
 };
-
 let INVASIONS = {
   invasions: 1,
   invasions_low_health_battle: 1,
   invasions_hero_relic: 1,
 };
-
 //TR 8+
 let GEM_BAY = {
   gem_bay: 0,
@@ -27,7 +26,6 @@ let GEM_BAY = {
   gem_bay_collect_reward: 1,
   gem_bay_hero_relic: 1,
 };
-
 //TR 4+?
 let PVP = {
   repeat_pvp: 0,
@@ -42,7 +40,6 @@ let PVP = {
   pvp_min_iron: 0,
   pvp_min_mithril: 0,
 };
-
 //TR 6+
 let PORTAL = {
   repeat_portal: 0,
@@ -51,7 +48,6 @@ let PORTAL = {
   portal_low_health_battle: 0,
   portal_hero_relic: 0,
 };
-
 //TR 5+
 let TOURNAMENT = {
   repeat_ticket: 0,
@@ -62,10 +58,30 @@ let TOURNAMENT = {
   tournament_collect_reward: 1,
   max_new_tournament_sleep_time: 30,
 };
-
 let ISLAND_EVENT = {
   island_event: 0,
   island_diamond_reset: 1,
   island_low_health_battle: 0,
   island_hero_relic: 1,
+};
+
+
+module.exports = {
+//Inquirer
+EditProfiles: async function()
+{
+  //Select profile
+    //Select activity
+      //Edit values
+
+  Inquirer.prompt({})
+    
+},
+
+ProfileList: function()
+{
+  var files = fs.readdirSync('/profiles');
+  console.log(files);
+  return //array of profile objects "shortcut", "config";
+}
 };
