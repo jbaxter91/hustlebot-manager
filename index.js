@@ -68,6 +68,7 @@ async function Startup()
         console.log("Launching Bot now");
         cp.exec(`start ${__dirname}/bot/bot.lnk`,function(error,stdout,stderr){if(error)console.log(error);});
         clearTimeout(emulatorDelayTimer);
+        //Wait for bot to be fully setup before watching
         setTimeout(() => 
         {
             console.log("Watching Bot!");
@@ -85,6 +86,7 @@ function GetProfileConfig()
 {
     return readFile(`./profiles/${profiles[profileIndex]}/config.txt`);
 }
+
 
 async function ChangeProfile() {
   if (profileIndex >= profiles.length - 1) {
