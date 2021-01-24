@@ -5,7 +5,7 @@ alarm_suspicious_activity = 1
 emulator_in_background = 1
 max_screen_sleep_time = 100
 other_device_sleep_time = 120
-auto_start = 0
+auto_start = 1
 ////////////////////////////////////////////
 
 // General /////////////////////////////////
@@ -28,33 +28,33 @@ gem_bay_hero_relic = 1
 
 // PvP /////////////////////////////////////
 repeat_pvp = 0
-pvp_max_squad_power_scale = 90
+pvp_max_squad_power_scale = 85
 pvp_low_health_battle = 1
-pvp_hero_relic = 1
+pvp_hero_relic = 0
 change_opponent = 1
-reattack_defeated = 1
-pvp_min_gold = 100000
-pvp_min_mana = 999999999
-pvp_min_wood = 999999999
-pvp_min_iron = 999999999
-pvp_min_mithril = 4000
+reattack_defeated = 0
+pvp_min_gold = 20000
+pvp_min_mana = 9999999
+pvp_min_wood = 2000
+pvp_min_iron = 999999
+pvp_min_mithril = 99999
 ////////////////////////////////////////////
 
 // Portal //////////////////////////////////
-repeat_portal = 999
-max_portal_level = 24
+repeat_portal = 0
+max_portal_level = 6
 force_max_level = 1
 portal_low_health_battle = 1
 portal_hero_relic = 0
 ////////////////////////////////////////////
 
 // Tournament //////////////////////////////
-repeat_ticket = 4
-repeat_food = 0
+repeat_ticket = 1
+repeat_food = 30
 use_ticket_first = 1
-tournament_strategy = 4
-max_squad_power_scale = 170
-tournament_collect_reward = 1
+tournament_strategy = 14
+max_squad_power_scale = 130
+tournament_collect_reward = 0
 max_new_tournament_sleep_time = 30
 ////////////////////////////////////////////
 

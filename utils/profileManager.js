@@ -1,7 +1,8 @@
 //Responsible for generating a new hustle castle bot config file
 //edit the config files, and update them.  All with inquirer
-const Inquirer = require('inquirer');
-const fs = require('fs');
+import Inquirer from 'inquirer';
+import fs from 'fs';
+import { readdirSync } from 'fs';
 
 let BOT_SETTINGS = {
   alarm_suspicious_activity: 1,
@@ -66,7 +67,7 @@ let ISLAND_EVENT = {
 };
 
 
-module.exports = {
+export default {
 //Inquirer
 EditProfiles: async function()
 {
@@ -75,13 +76,14 @@ EditProfiles: async function()
       //Edit values
 
   Inquirer.prompt({})
-    
+  
 },
 
 ProfileList: function()
 {
-  var files = fs.readdirSync('/profiles');
-  console.log(files);
-  return //array of profile objects "shortcut", "config";
+  const files = readdirSync("./profiles", { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name)
+  return files; //array of profile objects "shortcut", "config";
 }
 };
