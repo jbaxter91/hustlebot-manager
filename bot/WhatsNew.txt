@@ -1,4 +1,11 @@
-﻿• 1.6.6 - 18.12.2020
+﻿• 1.6.8 - 23.01.2021
+	○ Fixed issues with Hammer reward
+
+• 1.6.7 - 21.01.2021
+	○ Fixed Invasion mode problem after game update
+	○ Minor Fixes
+
+• 1.6.6 - 18.12.2020
 	○ Added configuration: invasions_hero_relic, gem_bay_hero_relic, pvp_hero_relic, portal_hero_relic, island_hero_relic
 	○ Removed configuration: hero_relic
 	○ Minor Fixes

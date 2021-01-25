@@ -1,12 +1,11 @@
 //configuration parameters are explained in http://hustlecastlebot.com/ website.
-//This is the new file!
 
 // Bot Settings ////////////////////////////
 alarm_suspicious_activity = 1
 emulator_in_background = 1
 max_screen_sleep_time = 100
 other_device_sleep_time = 120
-auto_start = 1
+auto_start = 0
 ////////////////////////////////////////////
 
 // General /////////////////////////////////
@@ -20,7 +19,7 @@ invasions_hero_relic = 1
 ////////////////////////////////////////////
 
 // Gem Bay /////////////////////////////////
-gem_bay = 0
+gem_bay = 1
 gem_bay_use_food = 1
 deploy_previous_squad = 0
 gem_bay_collect_reward = 1
@@ -28,34 +27,34 @@ gem_bay_hero_relic = 1
 ////////////////////////////////////////////
 
 // PvP /////////////////////////////////////
-repeat_pvp = 0
-pvp_max_squad_power_scale = 85
+repeat_pvp = 10
+pvp_max_squad_power_scale = 90
 pvp_low_health_battle = 1
-pvp_hero_relic = 0
+pvp_hero_relic = 1
 change_opponent = 1
-reattack_defeated = 0
-pvp_min_gold = 20000
-pvp_min_mana = 9999999
-pvp_min_wood = 2000
-pvp_min_iron = 999999
-pvp_min_mithril = 99999
+reattack_defeated = 1
+pvp_min_gold = 100000
+pvp_min_mana = 999999999
+pvp_min_wood = 999999999
+pvp_min_iron = 999999999
+pvp_min_mithril = 4000
 ////////////////////////////////////////////
 
 // Portal //////////////////////////////////
-repeat_portal = 0
-max_portal_level = 6
-force_max_level = 1
-portal_low_health_battle = 1
-portal_hero_relic = 0
+repeat_portal = 10
+max_portal_level = 125
+force_max_level = 0
+portal_low_health_battle = 0
+portal_hero_relic = 1
 ////////////////////////////////////////////
 
 // Tournament //////////////////////////////
-repeat_ticket = 0
-repeat_food = 1
+repeat_ticket = 10
+repeat_food = 10
 use_ticket_first = 1
 tournament_strategy = 14
-max_squad_power_scale = 130
-tournament_collect_reward = 0
+max_squad_power_scale = 95
+tournament_collect_reward = 1
 max_new_tournament_sleep_time = 30
 ////////////////////////////////////////////
 
