@@ -20,6 +20,16 @@ var handler = {
       });
     });
   },
+
+  KillBot: function () {
+    ProcessList.snapshot("pid", "name").then((tasks) => {
+      const result = tasks.filter((word) => word.name == "HustleCastleBOT.exe");
+      //console.log(result.length > 0 ? result : "nothing found!");
+      result.forEach((element) => {
+        process.kill(element.pid);
+      });
+    });
+  },
 };
 
 export { handler };
