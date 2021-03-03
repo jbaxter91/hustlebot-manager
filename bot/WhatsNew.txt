@@ -1,4 +1,22 @@
-﻿• 1.6.8 - 23.01.2021
+﻿• 1.7.2 - 27.02.2021
+	○ Fixed Portal screen issue in some cases
+
+• 1.7.1 - 21.02.2021
+	○ Fixed Gem Bay Claim Reward issue in some cases
+	○ Fixed Castle Attacked issue
+	○ Fixed unfinished Island Map issue
+	○ Fixed refreshing Island Map with warning screen issue
+	○ Minor Fixes
+
+• 1.7.0 - 18.02.2021
+	○ Which emulator to be used can be selected: nox, memu, or auto
+	○ All modes can be repeatable
+	○ Added configuration: emulator, repeat_all, max_new_loop_sleep_time
+	○ Island Event mode is adapted to the new event
+	○ Major performance improvements
+	○ Minor Fixes
+
+• 1.6.8 - 23.01.2021
 	○ Fixed issues with Hammer reward
 
 • 1.6.7 - 21.01.2021

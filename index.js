@@ -39,6 +39,7 @@ function WatchBot() {
       if (!res) {
         console.log("Bot Stopped");
         clearInterval(watchTimer);
+        clearTimeout(timeout);
         ResetBot();
       } else {
         //console.log("Bot Running");
