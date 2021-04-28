@@ -1,4 +1,21 @@
-﻿• 1.7.2 - 27.02.2021
+﻿• 1.8.4 - 20.04.2020
+	○ Fixes after game update
+
+• 1.8.3 - 18.04.2020
+	○ Fixes after game update
+
+• 1.8.2 - 06.04.2020
+	○ Fixed Gem Bay reward collection issue
+
+• 1.8.1 - 17.03.2021
+	○ Minor Fixes
+
+• 1.8.0 - 16.03.2021
+	○ Balloons and resources in the castle can be collectable
+	○ Added configuration: stop_suspicious_activity, collect_balloons, collect_resources
+	○ Minor Fixes
+
+• 1.7.2 - 27.02.2021
 	○ Fixed Portal screen issue in some cases
 
 • 1.7.1 - 21.02.2021

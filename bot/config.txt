@@ -4,6 +4,7 @@
 // Bot Settings ////////////////////////////
 emulator = auto						//nox, memu, or auto
 alarm_suspicious_activity = 1
+stop_suspicious_activity = 0
 emulator_in_background = 1
 max_screen_sleep_time = 400
 other_device_sleep_time = 120
@@ -12,6 +13,8 @@ auto_start = 1
 
 // General /////////////////////////////////
 low_health_sleep_time = 30
+collect_balloons = 1
+collect_resources = 0
 ////////////////////////////////////////////
 
 // Invasions ///////////////////////////////
@@ -30,14 +33,14 @@ gem_bay_hero_relic = 1
 
 // PvP /////////////////////////////////////
 repeat_pvp = 0
-pvp_max_squad_power_scale = 900
-pvp_low_health_battle = 1
+pvp_max_squad_power_scale = 85
+pvp_low_health_battle = 0
 pvp_hero_relic = 0
 change_opponent = 0
-reattack_defeated = 1
-pvp_min_gold = 20000
+reattack_defeated = 0
+pvp_min_gold = 2000
 pvp_min_mana = 99999999
-pvp_min_wood = 10000
+pvp_min_wood = 1000
 pvp_min_iron = 9999999
 pvp_min_mithril = 999999
 ////////////////////////////////////////////
@@ -51,11 +54,11 @@ portal_hero_relic = 0
 ////////////////////////////////////////////
 
 // Tournament //////////////////////////////
-repeat_ticket = 0
+repeat_ticket = 1
 repeat_food = 4
 use_ticket_first = 1
 tournament_strategy = 14
-max_squad_power_scale = 120
+max_squad_power_scale = 150
 tournament_collect_reward = 0
 max_new_tournament_sleep_time = 30
 ////////////////////////////////////////////
@@ -64,5 +67,5 @@ max_new_tournament_sleep_time = 30
 island_event = 0
 island_diamond_reset = 0
 island_low_health_battle = 0
-island_hero_relic = 0
+island_hero_relic = 1
 ////////////////////////////////////////////
