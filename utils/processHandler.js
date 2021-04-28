@@ -1,7 +1,5 @@
 import ProcessList from "process-list";
 
-
-
 let timer;
 var handler = {
   IsBotRunning: async function () {
